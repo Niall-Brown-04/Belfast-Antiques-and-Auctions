@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!--this specifies the document type -->
+<html> <!--this sets out the beginning of the html document-->
+    <head> <!--this section holds the meta information: 
+               important for search engines and browsers-->
+     <meta charset="utf-8"> <!--ensures that text and symbols are displayed correctly-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--ensures webpage will display correctly in different devices-->
+     <meta name="description" content="Antiques and Auctions with a vast collection of unique items. Browse our collection, be part of one of our auctions or attend one of our events">
+     <!--provides a description of the content of your website-->
+     <meta name="keywords" content="Antiques, Auctions, Collectibles, Vintage, Rare, Historical, Unique, Period">
+     <!--specifies keywords relevant to the content of the webpage
+         will help in search engine optimisation (seo)-->
+     <meta name="author" content="Niall Brown"> <!--shows the author of the website-->
+     <title>Belfast Antiques and Auctions</title> <!--this will appear in the browser-->
+     <link rel="stylesheet" href="styles.css"> <!--links to an stlyesheet      
+                                             helps with consistency-->
+    </head>
+    <body> <!--this will contain all the content that will be visible on your webpage
+                text, images, videos etc-->
+     <header>
+        <div class="container">
+            <h1><span class="highlight">Belfast Antiques & Auctions</span></h1>
+        </div>
+        <nav> <!--this represents the navigation section of the webpage-->
+          <ul> <!--"unordered list" will help to create navigation menu-->
+            <li class="current"><a href="index.html">Home</a></li> 
+            <!--current refers to the page that is selected at the time-->
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Upcoming Events.html">Upcoming Events</a></li>
+            <li><a href="Stocklist.html">Stocklist</a></li> 
+            <li><a href="Promotions.html">Promotions</a></li>
+         </ul>
+        </nav>
+        <div class="social-icons">
+        <a href="https://www.facebook.com"><img src="images/facebook logo.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com"><img src="images/instagram logo.png" alt="Instagram"></a>
+        </div>
+     </header>
+
+     <section id="showcase">
+        <div class="container">
+            <h1>Historic, Unique, Collectible</h1>
+            <p>For us, antiques are a passion</p>
+           </div>
+     </section>
+
+     <div class="slideshow-container"> <!--outer div serves as the container for the slideshow-->
+        <div class="slide fade"> <!--there will be a fade applied through css-->
+            <img src="images/antique table.webp" alt="Image 1 table">
+        </div>
+        <div class="slide fade">
+            <img src="images/antique watch.webp" alt="Image 2 watch">
+        </div>
+        <div class="slide fade">
+            <img src="images/antique pocket watch.jpg" alt="Image 3 pocket watch">
+        </div>
+        <div class="slide fade">
+            <img src="images/antique gramophone.avif" alt="Image 4 gramophone">
+        </div>
+        <div class="slide fade">
+            <img src="images/antique chairs.jpg" alt="Image 5 chairs">
+        </div>
+        <div class="slide fade">
+            <img src="images/antique sand clock.jpg" alt="Image 6 sand clock">
+        </div>
+     </div>
+     <script src="script.js"></script> <!--is used to include an JavaScript file in the HTML document.-->
+
+    </body>
+
+    <footer>
+        <p> Belfast Antiques and Auctions, Established 1970 Copyright &copy; 2024 </p>
+    </footer>
+
+</html>
